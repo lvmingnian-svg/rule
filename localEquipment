@@ -1,0 +1,7 @@
+# ========== 基础直连规则（优先级最高） ==========
+# 1. 海尔设备直连规则（手动添加）
+ruleset=🎯 全球直连,[]IP-CIDR,192.168.10.13/32
+ruleset=🎯 全球直连,[]IP-CIDR,192.168.10.17/32
+ruleset=🎯 全球直连,DOMAIN-SUFFIX,haier.com
+ruleset=🎯 全球直连,DOMAIN-SUFFIX,haier.net
+ruleset=🎯 全球直连,DOMAIN-SUFFIX,haier.io
